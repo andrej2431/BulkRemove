@@ -20,12 +20,12 @@ class Plugin extends Base
 
     public function getPluginName()
     {
-        return 'Delete tasks in bulk';
+        return 'BulkRemove';
     }
 
     public function getPluginDescription()
     {
-        return t('Adds the functionality to delete tasks in bulk');
+        return t('Adds the functionality to remove tasks in bulk');
     }
 
     public function getPluginAuthor()
@@ -40,7 +40,7 @@ class Plugin extends Base
 
     public function getPluginHomepage()
     {
-        return 'https://github.com/andrej2431/Kanban_delete_in_bulk';
+        return 'https://github.com/andrej2431/BulkRemove';
     }
 }
 
